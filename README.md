@@ -1,13 +1,15 @@
-keterangan :
+#### keterangan :
 + client id : di isi terserah yang penting unik, jika kebetulan sama maka salah satu client akan di reject
 
-# instalasi Mosquitto broker
+####instalasi Mosquitto broker
+```
 https://medium.com/@shikhar022/steps-to-install-mosquitto-broker-on-windows-10-aec2141d962c
-
-# untuk uji coba gunakan mqtt client : http://workswithweb.com/html/mqttbox/installing_apps.html#install_on_windows
-
-
-# langkah tambah password mosquitto  (ref http://www.steves-internet-guide.com/mqtt-username-password-example/):
+```
+#### untuk uji coba gunakan mqtt client 
+```
+http://workswithweb.com/html/mqttbox/installing_apps.html#install_on_windows
+```
+#### langkah tambah password mosquitto  (ref http://www.steves-internet-guide.com/mqtt-username-password-example/):
 
 + buat file C:\Program Files (x86)\mosquitto\pwdfile.txt isi :
 ```
@@ -25,7 +27,5 @@ password_file C:\Program Files (x86)\mosquitto\pwdfile.txt
 + run services.msc, restart mosquitto
 
 
-
-
-# di laravel, pakai library : https://packagist.org/packages/bluerhinos/phpmqtt
+#### di laravel, pakai library : https://packagist.org/packages/bluerhinos/phpmqtt
 
