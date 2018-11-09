@@ -1,3 +1,4 @@
+#### https://medium.com/pemrograman/mengenal-mqtt-998b6271f585
 #### keterangan :
 + client id : di isi terserah yang penting unik, jika kebetulan sama maka salah satu client akan di reject
 
